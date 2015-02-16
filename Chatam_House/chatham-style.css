@@ -1,0 +1,260 @@
+body{
+	margin:0;
+	font-family:georgia, times new roman, san-serif, arial;
+	font-size:14px;
+	line-height:130%;
+}
+
+a img{border:none;}
+a {
+	border: none;
+    outline: none;
+}
+
+#wrap{
+	width:1020px;
+	margin:0 auto;
+}
+
+#header{
+	height:158px;
+}
+
+#logo{
+	float:left;
+	width:332px;
+}
+
+#logo img{
+	width:270px;
+}
+
+#tagline{
+	float:right;
+	width:624px;
+	padding-top:50px;
+}
+
+#container{
+	clear:both;
+	margin-bottom:10px;
+	background:url(images/container-bg.gif) repeat-y;
+	float:left;
+}
+
+#sidebar{
+	float:left;
+	background:#151a64;
+	color:#fff;
+	width:218px;
+	min-height:790px;
+}
+
+.activepage{background:url(images/dot.png) no-repeat 10px 4px;}
+
+
+#address{
+	font-weight:bold;
+	padding:0 30px;
+	margin-top:80px;
+	overflow: hidden;
+	font-family:times new roman, san-serif, arial;
+	font-size:16px;
+}
+
+#address>div{
+	font-size:24px;
+}
+
+#address div+p{
+	margin-top:2px;
+}
+
+#socialmedia{
+	padding:0 17px 17px;
+	margin-top:60px;
+	overflow: hidden;
+}
+
+#twt{
+	width:54px;
+	height:53px;
+	background:url(images/social-icons.png) no-repeat 0 0;
+	float:left;
+}
+
+#fb{
+	width:54px;
+	height:53px;
+	background:url(images/social-icons.png) no-repeat -54px 0;
+	float:left;
+	margin:0 10px;
+}
+
+#mail{
+	width:56px;
+	height:53px;
+	background:url(images/social-icons.png) no-repeat -108px 0;
+	float:left;
+}
+
+#main-content{
+	float:left;
+	margin:0 0 0 15px;
+	width:787px;
+}
+
+#sliderbox{
+	box-shadow:0 0 8px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow:0 0 8px rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow:0 0 8px rgba(0, 0, 0, 0.8);
+	-o-box-shadow:0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+#midimg-box{
+	margin-top:10px;
+	float: left;
+}
+#midimg-box div{
+	float:left;
+}
+#midimg-box img{
+	box-shadow:3px 3px 6px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:3px 3px 6px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow:3px 3px 6px rgba(0, 0, 0, 0.5);
+	-o-box-shadow:3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+#content-text{
+	margin-top:0px;
+	float: left;
+}
+
+#content-text h2{
+	color:#b62126; 
+	padding:0px 0; 
+	margin: 15px 0 8px 0; 
+	clear: left;
+	font-family:georgia;
+}
+
+#content-text h3{
+	color:#1B81A5; 
+	padding:0px 0; 
+	margin: 8px 0; 
+	clear: left;
+	font-family:georgia;
+	font-size:17px;
+}
+
+#content-text h3+p{margin-top:0}
+
+#pageimg{
+	position:relative;
+	z-index:3;
+}
+#pageimg img{
+	box-shadow:0 0 8px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow:0 0 8px rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow:0 0 8px rgba(0, 0, 0, 0.8);
+	-o-box-shadow:0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+.textbox{
+	width:767px;
+	padding:10px;
+	background:url(images/menubg.gif);
+	text-shadow:1px 1px 1px #fff;
+	min-height:400px;
+}
+
+.textbox a{text-decoration:none; color:#1B81A5;}
+.textbox a:hover{text-decoration:underline; color:#1B81A5;}
+
+.textbox ul{
+	margin-top:3px;
+}
+
+.menutop{background:url(images/menubg-top.png) no-repeat 0 top; width:787px; height:8px; margin-top:10px;}
+.menubtm{background:url(images/menubg-btm.png) no-repeat 0 bottom; width:787px; height:12px; margin-bottom:5px;}
+.menus{
+	width:767px;
+	padding:10px;
+	background:url(images/menubg.gif);
+	text-shadow:1px 1px 1px #fff;
+	overflow: hidden;
+}
+
+.menus div{
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#151A64;
+	padding:5px 0;
+	font-family:georgia;
+}
+
+.menus p{
+	padding:0;
+	margin:-5px 0 10px;
+	color:#1A7FA3;
+	font-family:georgia;
+	font-size:14px;
+}
+
+.menus span{
+ font-size:16px;
+ margin-left:25px;
+ font-weight:normal;
+ color:#1A7FA3;
+ font-weight:bold;
+}
+
+.menus table{
+	width:100%;
+	font-weight:bold;
+	padding:0 2px;
+}
+
+.menus table td{vertical-align: top;}
+
+.menus table td p{
+	font-weight:normal; 
+	color:#000; 
+	font-size:12px; 
+	padding:5px 0;
+}
+
+.nrm{font-weight:normal;}
+
+.menus>.wines{text-transform:none;}
+.wines table{
+	width:50%;
+	font-weight:bold;
+	float:left;
+	padding:0 2px;
+}
+
+.red{
+	color:#B52025 !important;
+	padding-top:0 !important;
+}
+
+.pr{
+	padding:0px 4px 10px;
+	border-bottom:1px dotted #bebebe;
+	margin-bottom:25px;
+}
+.pr:hover{
+	background:rgba(205, 205, 205, 0.3)
+}
+
+.pr>div a{
+	color:#1A80A4;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.pr>div+p{margin:0; padding:5px 0; line-height:140%;}
+.pr>div+p span{color:#7b7b7b;}
